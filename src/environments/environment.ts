@@ -1,5 +1,5 @@
 export const environment = {
     production: false,
-    API_URL: 'http://localhost:3334',
-    STRATUM_URL: 'localhost:3333'
+    API_URL: 'https://mining.kolhoz.me',
+    STRATUM_URL: 'mining.kolhoz.me:3333'
 };

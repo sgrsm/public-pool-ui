@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="col-12 text-center title">
-                    <h1 class="text-900 font-normal">Kolhoz Pool</h1>
+                    <h1 class="text-900 font-normal">Area55 Pool</h1>
                 </div>
                 <div class="mb-4">
                     <a class="ml-4 mr-4" href="https://twitter.com/Public_Pool_BTC" target="_blank">
@@ -65,7 +65,7 @@
                 <div class="text-center mb-2">Uptime: {{uptime$ | async | dateAgo}}</div>
 
                 <ng-container *ngIf="chartData$ | async as chartData; else loadingChart">
-                    
+
                     <p-chart [responsive]="true" type="line" [data]="chartData" [options]="chartOptions"></p-chart>
 
                 </ng-container>
